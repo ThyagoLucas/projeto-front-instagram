@@ -1,0 +1,325 @@
+body{
+    font-family: 'Roboto', sans-serif;  
+    font-style: normal;
+    
+}
+
+.topo-site{
+    background-color:#FFFFFF;
+    
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 58px;
+    width: 100%;
+    border-bottom: 1px solid #DBDBDB;
+    position: fixed;
+}
+.logo{
+    margin-top: 5px;
+    width: 103px;
+    height: 29px;
+}
+.pesquisa{
+   text-align: center;
+   color: #979797;
+   border-radius: 5px;
+   height: 35px;
+   width: 255px;
+   background-color: #EFEFEF;
+   border: none;
+   margin-left: 50px;
+
+}
+.esquerda{
+    
+    display: flex;
+    align-items: center;
+    
+
+}
+.vert{
+    background-color:#DBDBDB;
+    width: 1px;
+    height: 22px;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.direita{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 156.25px;
+
+}
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.foto-stories{
+   
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+    
+}
+
+.fundo-stories{
+   
+    width: 66px;
+    height: 66px;
+    position: relative;
+   
+}
+
+.stores-ind{
+    border: 1px solid red;
+    margin: 14px;
+    position: relative;
+
+   
+}
+
+.nome-stories{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #262626; 
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.stories-container{
+    width: 614px;
+    height: 118px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px;
+    margin-bottom: 24px;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    overflow:hidden;
+}
+
+.centro-page{
+    display: flex;
+    justify-content: center;
+    background-color:#FAFAFA;
+    
+}
+
+.corpo{
+    
+    width: 618px;
+    height: 900px;
+    margin-top: 58px;
+    background-color: #FAFAFA;
+}   
+
+.publi{
+    margin-top: 24px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    margin-bottom: 60px;
+    padding-bottom: 13px;
+}
+.publi img{
+    border-top: 1px solid rgba(0, 0, 0, .15);
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+    
+}
+
+
+.topo-publi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+.topoe{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
+    margin-bottom: 13px;
+    
+
+    
+}
+.topoe p{
+ margin-left: 9px;
+}
+.topoe img{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    margin-top: 8px;
+}
+
+
+
+.foto-publi{
+   width: 100%;
+  
+}
+
+.barra-foto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  
+}
+.barrae{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100px;
+    margin-left: 15px;
+    margin-bottom: 12px;
+}
+.margin-r{
+    margin-right: 17px;
+}
+.curtido-por img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: px;
+}
+.curtido-por{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 340px;
+    margin-left: 15px;
+       
+}
+.curtido-por p{
+    
+    
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.sidebar{
+    
+    height: 150px;
+    background-color: aqua;
+    margin-left: 30px;
+    margin-top: 100px;
+    position: fixed;
+    right: 0%;
+}
+
+.topo-side{
+    background-color: #979797;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-style: normal;
+    
+
+    
+}
+.topo-side img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.topo-side div{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+
+}
+.claro{
+    color: #8E8E8E;
+
+}
+
+.centro-es{
+    background-color: yellowgreen;
+    display: flex;
+    height: 200px;
+   
+}
+.centro-es img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.centro2side{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    width: 100%;
+    
+    margin: 17px 0;
+    background-color: brown;
+
+
+    
+}
+
+.sid-individual{
+    display: flex;
+    justify-content: space-between;
+    background-color: deeppink;
+    width: 100%;
+    
+}
+.blon{
+    background-color: gold;
+      
+    display: flex;
+    justify-content: flex-start;  
+    
+
+}
+
+.blan{
+    background-color: indigo;
+    
+    
+}
+.seguir{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #139EF2;
+}
+
